@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SMS READER • com.ishan.sms • © Ishan -->
+<resources>
+    <color name="bg">#F3F0FF</color>
+    <color name="ink">#1E1B3A</color>
+    <color name="muted">#6B6785</color>
+    <color name="purple">#7C4DDB</color>
+    <color name="purple_card">#DDD6FA</color>
+    <color name="pink_card">#FFD9E3</color>
+    <color name="green_card">#CDF0E1</color>
+    <color name="dark_card">#272053</color>
+    <color name="ic_launcher_background">#7C4DDB</color>
+</resources>

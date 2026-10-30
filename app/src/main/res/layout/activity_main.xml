@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SMS READER • com.ishan.sms • © Ishan -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <include android:id="@+id/loginRoot" layout="@layout/layout_login" />
+
+    <LinearLayout
+        android:id="@+id/mainRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <include android:id="@+id/pageHome" layout="@layout/page_home" />
+            <include android:id="@+id/pageSms" layout="@layout/page_sms" />
+            <include android:id="@+id/pageSettings" layout="@layout/page_settings" />
+        </FrameLayout>
+
+        <com.ishan.sms.BrandFooterView
+            android:id="@+id/brandMain"
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            app:elevation="10dp"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_nav" />
+    </LinearLayout>
+</FrameLayout>

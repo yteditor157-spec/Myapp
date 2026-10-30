@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SMS READER • com.ishan.sms • © Ishan -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_home" android:title="হোম" />
+    <item android:id="@+id/nav_sms" android:icon="@drawable/ic_sms" android:title="SMS" />
+    <item android:id="@+id/nav_settings" android:icon="@drawable/ic_person" android:title="সেটিংস" />
+</menu>

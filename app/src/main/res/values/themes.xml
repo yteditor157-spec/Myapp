@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SMS READER • com.ishan.sms • © Ishan -->
+<resources>
+    <style name="Theme.RHSmsReader" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#7C4DDB</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#DDD6FA</item>
+        <item name="colorOnSecondaryContainer">#3B1F9E</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

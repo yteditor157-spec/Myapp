@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SMS READER • com.ishan.sms • © Ishan -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FFFFFF" android:pathData="M38,30 H70 A8,8 0 0 1 78,38 V58 A8,8 0 0 1 70,66 H52 L40,77 V66 H38 A8,8 0 0 1 30,58 V38 A8,8 0 0 1 38,30 Z"/>
+    <path android:fillColor="#7C4DDB" android:pathData="M56,35 L45,50 H53 L51,61 L63,45 H55 Z"/>
+</vector>
